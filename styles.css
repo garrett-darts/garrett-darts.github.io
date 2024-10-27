@@ -1,17 +1,18 @@
 body {
     margin: 0;
-    background: lightseagreen;
+    background: rgb(240, 248, 255);
     font-family: Arial, sans-serif;
     text-align: center;
     header {
+        text-align: left;
         margin-top: 20px;
-    }
+
     
     .button-header {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #4CAF50;
-        color: white;
+        background-color: #2563EB;
+        color: #1E3A5F;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -21,11 +22,13 @@ body {
     }
     
     .button-header:hover {
-        background-color: #45a049;
+        background-color:  #3B82F6;
     }
     
     .button-header:active {
-        background-color: #3e8e41;
+        background-color: #2563EB;
     }
+}
+
 
 }
