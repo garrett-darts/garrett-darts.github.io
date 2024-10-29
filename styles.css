@@ -72,5 +72,10 @@ body {
     .button-header:active {
         background-color: #A9DEF9;
     }
+    .centered-button {
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    }
 
 }
